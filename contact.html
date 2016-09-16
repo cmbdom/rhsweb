@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RHS Chemistry - Contact Us</title>
+<link href="styles.css" rel="stylesheet" type="text/css" title="default"/>
+<link href="alt.css" rel="alternate stylesheet" type="text/css" title="alternate" />
+</head>
+
+<body>
+<div class="head">
+    <h3 align="center">Ridgeview High School <span id="bigtitle">Chemistry</span></h3>
+<nav>
+  <div class="navbar">
+    <ul>
+      <ul>
+        <li><a href="index.html">Home</a>
+        <li><a href="staff.html">Staff</a>
+        <li><a href="curriculum.html">Curriculum</a>
+        <li><a href="whyneed.html">Uses</a>
+        <li><a href="extraurl.html">Extra Links</a>
+        <li style="float:right"><a href="contact.html" class="active">Contact Us</a>
+      </ul>
+    </ul>
+  </div>
+</nav>
+</div>
+</div>
+<div class="bodydiv">
+  <h2 class="subhead">Contact Page</h2>
+  <div class="textbody">
+    <p>Please send us an email by filling out the following fields. Questions and concerns are welcome. </p>
+    <form name="form1" method="post" action="mailto:admin@rhschemistry.net">
+      <table width="100%" border="0" cellspacing="5" cellpadding="5">
+        <tr>
+          <td width="30%" align="right">Name</td>
+          <td><input name="name" type="text" id="name" size="30" placeholder="Johnny Appleseed" required></td>
+        </tr>
+        <tr>
+          <td width="30%" align="right">Email</td>
+          <td><label for="email"></label>
+          <input name="email" type="email" id="email" size="30" placeholder="name@domain.com" required></td>
+        </tr>
+        <tr>
+          <td width="30%" align="right">Comments &amp; <br>
+          Questions</td>
+          <td><label for="comment"></label>
+          <textarea name="comment" cols="50" rows="5" id="comment" placeholder="Please enter any comments, questions, or concerns here."></textarea></td>
+        </tr>
+        <tr>
+          <td width="30%" align="right"><input type="reset" name="reset" id="reset" value="Reset"></td>
+          <td><input name="submit" type="submit" id="submit" onClick="MM_validateForm('name','','R','email','','RisEmail');return document.MM_returnValue" value="Submit"></td>
+        </tr>
+      </table>
+    </form>
+  </div>
+</div>
+ <div class="footer">
+	<span style="float:left"><a href="#" onclick="setActiveStyleSheet('alternate'); return false;">Light</a> |
+	<a href="#" onclick="setActiveStyleSheet('default'); return false;">Dark</a></span>
+    <span style="float:right">Copyright&copy; 2016 Dominic Devio</span><br>
+</div>
+
+	<script type="text/javascript" src="scripts/styleswitcher.js"></script>
+</body>
+</html>
